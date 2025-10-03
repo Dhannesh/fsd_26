@@ -1,3 +1,13 @@
-git init
+--------- Git One time only ---------------
+git init -> to create a new repository at userend
+git add . ->to add all files/folder into repository
+git commit -m "inital commit" ->to save the files
+git remote add origin "https://....." ->to link with github
+git branch -M main ->to switch to main branch
+git push -u origin main ->to upload main branch to github
+
+
+---- Git Repeats -----
 git add .
-git commit -m "inital commit"
+git commit -m "message"
+git push
